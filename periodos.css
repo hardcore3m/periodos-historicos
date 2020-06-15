@@ -1,0 +1,190 @@
+/* ------------------------------------CORPO DA PÁGINA*/
+body
+{
+width: 1200 px;
+margin: auto;
+background-color: #FFD;
+}
+/*-------------------------------------CONFIGURAÇÃO DE SUMÁRIOS*/
+
+summary::-webkit-details-marker
+/*Remove o indicador do sumário*/
+{
+    display: none;
+}
+
+/*-------------------------------------CABEÇALHO*/
+#cab
+{
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+/* IMAGEM DE PLANO DE FUNDO COM TRANSPARÊNCIA SOMENTE PARA ELA */
+/* ATENÇÃO NAS COORDENADAS E NO INDICE*/
+#cab::after
+{
+    content: "";
+    background: url(imagens/historia.png) repeat-x;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+#cab img
+{
+    width: 60px;
+    padding-top: 10px;
+}
+
+#cab h1
+{
+    color: #222;
+    padding-top: 20PX;
+}
+/*------------------------------------- Menu*/
+#menu
+{
+    cursor: pointer;
+    float: left;
+    margin-left: 15px;
+    width: 250px;
+    padding: 5px;
+    height: 600px;
+    background-color: #0AB;
+    color: #222;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+#menu ul
+{
+    list-style: none;
+}
+
+#menu summary
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#menu li
+{
+    border-bottom: #222 dotted 1px;
+    padding-top: 5px;
+    list-style: none;
+}
+
+#menu li a
+{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#menu a
+{
+    text-decoration: none;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#menu a:hover
+{
+    color: burlywood;
+    background-color: crimson;
+}
+
+#periodos
+{
+    list-style: none;
+}
+
+/*----------------------------------------SEÇÃO PRINCIPAL*/
+#corpo
+{
+    float: left;
+    margin-left: 15px;
+    width: 920px;
+    background-color: #0AB;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow-y: scroll;
+    height: 600px;
+    padding-left: 10px;
+}
+#corpo details
+{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.primeiro
+{
+    padding-top: 10px;
+    background-color: #0ff;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.linha
+{
+    font-size: medium;
+    font-weight: normal;
+    text-transform: none;
+    list-style: none;
+    text-align: justify;
+}
+
+.segundo
+{
+    padding-top: 10px;
+    background-color: #f0f;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.terceiro
+{
+    padding-top: 10px;
+    background-color: #f0f;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.quarto
+{
+    padding-top: 10px;
+    background-color: #f0f;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.quinto
+{
+    padding-top: 10px;
+    background-color: #f0f;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}   

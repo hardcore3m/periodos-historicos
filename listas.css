@@ -1,0 +1,114 @@
+#legenda
+{
+    list-style: none;
+    padding-left: 260px;
+}
+
+#legenda #legenda1 p
+{
+background-color: #39f;
+width: 400px;
+border-radius: 30px;
+padding-left: 10px;
+}
+
+#legenda #legenda2 p
+{
+background-color: #1f7;
+width: 400px;
+border-radius: 30px;
+padding-left: 10px;
+}
+
+#legenda #legenda3 p
+{
+background-color: yellow;
+width: 400px;
+border-radius: 30px;
+padding-left: 10px;
+}
+
+#legenda #legenda4 p
+{
+background-color: yellow;
+width: 400px;
+border-radius: 30px;
+padding-left: 10px;
+}
+
+.presidentes1 summary
+{
+    background-color: #3399ff;
+    font-weight: bold;
+    font-size: 140%;
+    padding: 5px;
+    border: solid #222 1px;
+    border-radius: 5px;
+}
+
+.presidentes1 img
+{
+    float: left;
+    margin-right: 10px;
+}
+
+.presidentes1 p
+{
+    margin-left: 10px ;
+}
+
+.presidentes2 summary
+{
+    background-color: #11ff77;
+    font-weight: bold;
+    font-size: 140%;
+    padding: 5px;
+    border: solid #222 1px;
+    border-radius: 5px;
+}
+
+.presidentes2 img
+{
+    float: left;
+    margin-right: 10px;
+}
+
+.presidentes2 p
+{
+    margin-left: 10px ;
+}
+
+.presidentes3 summary
+{
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 140%;
+    padding: 5px;
+    border: solid #222 1px;
+    border-radius: 5px;
+}
+
+.presidentes3 img
+{
+    float: left;
+    margin-right: 10px;
+}
+
+.presidentes3 p
+{
+    margin-left: 10px ;
+}
+
+.cablista h2, h3, ul, h4
+{
+    text-align: center;
+}
+.cablista h4
+{
+    font-weight: normal;
+    font-size: 16px;
+}
+footer p
+{
+    font-size: 12px;
+}   
